@@ -1,0 +1,80 @@
+.colorItem{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 20px;
+}
+.container{
+    margin-top:20px;
+}
+.colorItem:hover{
+    cursor: pointer;
+}
+.colorBlack{
+    background: black;
+}
+.colorBlue{
+    background: #3498db;
+}
+.colorDarkgray{
+    background: darkgray;
+}
+.colorOrange{
+    background: #f39c12;
+}
+.colorRed{
+    background: #e74c3c;
+}
+.colorSilver{
+    background: #bdc3c7;
+}
+.colorWhite {
+    background: #ecf0f1;
+}
+.car{
+    display: flex;
+    align-items: center;
+}
+
+.model-name{
+    color: #3498db;
+    font-weight: bold;
+}
+.model-summary{
+    /*background: #3498db;
+    opacity: 0.2;*/
+    background: rgba(0,0,255,0.1);
+    padding:15px;
+    /*color:white;*/
+}
+.model-summary .button{
+    background: #3498db;
+    display: inline-block;
+    color:#fff;
+    padding: 10px 30px;
+    border-radius: 40px;
+    margin-top:10px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.model-summary .button:hover{
+    opacity: 0.8;
+}
+#modelSpecs{
+    /*font-weight: bold;*/
+    margin-top:15px;
+}
+#modelPrice, #modelPriceUSD{
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+    margin-top:15px;
+}
+#autoForm{
+    border:5px solid #ccc;
+    padding:15px;
+}
+#autoForm label:hover{
+    cursor: pointer;
+}

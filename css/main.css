@@ -1,0 +1,70 @@
+body{
+    /*background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/back.jpg);*/
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    min-height: 100vh;
+    justify-content:center;
+    align-items: center;
+}
+#app h2{
+    color: white;
+}
+
+#box{
+    width:300px;
+    height:200px;
+}
+.gray{
+    background: #2980b9;
+}
+.green{
+    background: green;
+}
+.border{
+    border: 10px solid red;
+    box-sizing: border-box;
+}
+input{
+    outline:none;
+}
+
+.focus{
+    border: 2px solid red;
+}
+#colorsSelector{
+    display: flex;
+    margin-left: 45px;
+}
+.colorItem{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: 20px;
+}
+.colorItem:hover{
+    cursor: pointer;
+}
+.colorBlack{
+    background: black;
+}
+.colorBlue{
+    background: #3498db;
+}
+.colorDarkgray{
+    background: darkgray;
+}
+.colorOrange{
+    background: #f39c12;
+}
+.colorRed{
+    background: #e74c3c;
+}
+.colorSilver{
+    background: #bdc3c7;
+}
+.colorWhite{
+    background: #ecf0f1;
+}
+
